@@ -19,14 +19,16 @@ body {
   background: #44403f;
 }
 
-.app {
+.App {
   text-align: center;
+  height: 100vh;
 }
 
 h1 {
-  font-size: 3.0rem;
+  font-size: 2.4rem;
   color: purple;
   text-align: center;
+  margin: 0 auto;
 }
 
 form {
@@ -120,7 +122,6 @@ select option {
 .lyricContainer {
   margin: 3% auto;
   width: 60%;
-  height: 100%;
   background: white;
   padding: 2%;
 }

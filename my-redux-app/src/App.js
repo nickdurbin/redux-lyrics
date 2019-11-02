@@ -8,7 +8,6 @@ function App() {
   
   return (
     <div className="App">
-      <h1>Song Lyrics</h1>
         <SongForm />
         <Lyrics />
     </div>
