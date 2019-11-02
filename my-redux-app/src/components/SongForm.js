@@ -24,8 +24,8 @@ const SongForm = () => {
     const handleSubmit = e => {
         e.preventDefault();
         dispatch(song(`${newArtist.artist}`, `${newSong.song}`));
-        setNewArtist('');
-        setNewSong('');
+        setNewArtist({ artist: ''});
+        setNewSong({ song: ''});
     };
 
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
 import SongForm from './components/SongForm';
-import Title from './components/Title';
+import Lyrics from './components/Lyrics';
 
 import './App.css';
 
@@ -10,7 +10,7 @@ function App() {
     <div className="App">
       <h1>Song Lyrics</h1>
         <SongForm />
-        <Title />
+        <Lyrics />
     </div>
   );
 }
