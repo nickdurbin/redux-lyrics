@@ -1,6 +1,4 @@
 import React from "react";
-// import { connect } from "react-redux";
-// import { song } from '../action/songs';
 import { useSelector } from 'react-redux';
 
 export default function Title() {
@@ -14,20 +12,3 @@ return (
   </div>
     )    
 }  
-
-    
-
-// function mapStateToProps(state) {
-//     return {
-//       title: state.title,
-//     };
-//   }
-
-//   const mapDispatchToProps = {
-//     song
-//   };
-
-//   export default connect(
-//     mapStateToProps,
-//     mapDispatchToProps
-//   )(Title)

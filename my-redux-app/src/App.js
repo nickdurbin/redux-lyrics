@@ -16,6 +16,3 @@ function App() {
 }
 
 export default App;
-
-
-// https://lyricsovh.docs.apiary.io/#reference/0/lyrics-of-a-song/search?console=1
